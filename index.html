@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Wenyi Tang">
+    <meta name="keywords" content="html, css, frontend, web, developer">
+	<title>Wenyi Tang's Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<!-- Scrollspy-->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- header -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<!-- head bar -->
+	<div class="navbar-header">
+		<!-- Button when narrow size-->
+      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        	<i class="fa fa-bars"></i>                   
+     	</button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      	<ul class="nav navbar-nav navbar-right">
+        	<li><a href="#home">Home</a></li>
+        	<li><a href="#resume">Resume</a></li>
+        	<li><a href="#project">Project</a></li>
+        	<li><a href="#contact">Contact</a></li>
+      	</ul>
+    </div>
+</nav>
+
+<!-- First Container: Home-->
+<div class="container-section" id="home">
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4 selfpic">
+			<img class="img-responsive" src="img/self.jpg">
+		</div>
+		<div class="col-sm-4">
+			<h1  style="line-height: 1.5">
+			<span class="hello">Hello,</span>
+			<br>I'm Wenyi Tang
+			<br>A passionate Front-end developer
+			</h1>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</div>
+
+<!-- Second Container: Resume-->
+<div class="container-section text-center bg-grey" id="resume">
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<h3  style="line-height: 1.8">Hi! I'm <span class="notice">Wenyi Tang</span>. A passionate junior web developer familiar with various front-end techniques. 
+			I'm experienced using front-end approaches to solve real world problems. 
+			I'm a quick learner and always excited to learn some new tricks. </h3>
+			<br>
+			<a href="#" class="btn btn-info btn-lg" role="button">DOWNLOAD RESUME</a>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</div>
+
+<!-- Third Container: Project-->
+<div class="container-section text-center" id="project">
+	<h1>Projects</h1>
+	<div class="box-project">
+		<div class="project">
+			<a href="" target="_blank">
+				<div class="hover">
+					<div class="project-link">Open Website</div>
+				</div>
+				<img class="img-responsive" src="img/ScoreRecorder.jpg">
+			</a>
+			<p>
+				<strong>Score Recorder</strong>
+				<br>A score dashboard for board games
+			</p>
+		</div>
+		<div class="project">
+			<a href="" target="_blank">
+				<div class="hover">
+					<div class="project-link">Open Website</div>
+				</div>
+				<img class="img-responsive" src="img/HitBricks.jpg">
+			</a>
+			<p>
+				<strong>Brick Breaker</strong>
+				<br>A classic brick-breaker game
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- Forth Container: Contact-->
+<div class="container-section text-center bg-grey" id="contact">
+	<h1>Contact me</h1>
+	<br>
+	<p>wxtang15@smumn.edu</p>
+	<p>+1(507)961-7792</p>
+	<p>363 Joe McCarthy Dr.
+	<br>Buffalo, NY 14228</p>
+</div>
+
+<!-- footer -->
+<footer class="footer">
+	<div class="footer-info">
+        <p class="footer-title"> You can also find me on: </p>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a href="https://github.com/wynntang23" target="_blank">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.linkedin.com/in/wynntang23" target="_blank">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.facebook.com/wenyi.tang.3701" target="_blank">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://twitter.com/wynntang23" target="_blank">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://weibo.com/6367424271/profile?topnav=1&wvr=6&is_all=1" target="_blank">
+                    <i class="fa fa-weibo fa-2x"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.instagram.com/wynntang23/" target="_blank">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
